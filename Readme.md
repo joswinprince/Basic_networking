@@ -4,5 +4,5 @@ netsh wlan show profiles
 ```
 ## see views
 ```
-wlan show profile "Redmi name" key=clear
+netsh wlan show profile "profile name" key=clear
 ```
