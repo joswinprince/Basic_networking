@@ -11,6 +11,9 @@ netsh wlan show profile "profile name" key=clear
 ```
 netstat -ano | findstr :<PORT>
 ```
+```
+netstat -ano | findstr :8081
+```
 > Killing the PID of the PORT
 ```
 taskkill /PID <process ID> /F
